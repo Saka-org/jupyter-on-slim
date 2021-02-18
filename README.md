@@ -11,10 +11,11 @@ The lightweight docker image for python/bash notebooks.
 Just pull the image from [dockerhub](https://hub.docker.com/r/sakamax/jupyter-slim).
 
 ## run
-This image exposes the port 8888.
+This image exposes port 8888.
 
 To use jupyter, run `docker run -p <someport>:8888 -it sakamax/jupyter-slim` and access `localhost:<someport>`.
 
 ## memo
 
-+ This image **does not** support R now. I will make the image containing R later, but it makes the image much more bigger.
++ This image **does not** support R now. I will make the image containing R later, but it makes the image much bigger.
++ In the future, I will add some scientific packages of python.
